@@ -111,8 +111,9 @@
     ]
   },
   "lint-staged": {
+    "verbose": false,
     "*.{js,jsx}": [
-      "yon run lint",
+      "eslint",
       "git add"
     ]
   },
